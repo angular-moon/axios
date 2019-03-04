@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { createAPI } from '{{$$.relative("util")}}';
 
 // mock server: '{{$$.joinUrl(config.host, "mock", data.project._id, data.project.url)}}'

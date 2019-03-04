@@ -1,3 +1,4 @@
+/* eslint-disable */
 import instance from './instance';
 import { convertRESTAPI } from '{{$$.relative("util")}}';
 

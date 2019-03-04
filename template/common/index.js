@@ -1,3 +1,4 @@
+/* eslint-disable */
 <% _.forEach(config.projects, function(project){ %>import * as {{$$.convertUrl(project.name)}} from './{{project.name}}';
 <% }) %>
 export {<% _.forEach(config.projects, function(project, i){ %>
